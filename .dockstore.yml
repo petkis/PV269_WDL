@@ -4,6 +4,4 @@ workflows:
   - name: hello-world
     subclass: WDL
     primaryDescriptorPath: /hello_world.wdl
-    testParameterFiles:
-      - /inputs.json
-    topic: "Simple Hello World WDL workflow for testing"
+    topic: "Hello World WDL test"
